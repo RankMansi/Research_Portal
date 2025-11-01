@@ -1,0 +1,45 @@
+# fastapi==0.104.1
+# uvicorn[standard]==0.24.0
+# # Align with other libs (e.g., langchain) requiring >=2.7.4,<3.0.0
+# pydantic==2.8.2
+# requests==2.31.0
+# beautifulsoup4==4.12.2
+# lxml==4.9.3
+# python-multipart==0.0.6
+# aiofiles==23.2.1
+# openpyxl==3.1.2
+# pandas==2.1.4
+# selenium==4.15.2
+# webdriver-manager==4.0.1
+# python-dotenv==1.0.0
+# # Satisfy ortools' requirement in global env if present
+# protobuf>=5.29.3,<5.30
+
+
+
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.8.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+python-multipart==0.0.6
+aiofiles==23.2.1
+openpyxl==3.1.2
+pandas==2.1.4
+selenium==4.15.2
+webdriver-manager==4.0.1
+python-dotenv==1.0.0
+
+# TensorFlow-compatible protobuf
+protobuf==3.20.3
+
+# Google Scholar API integration
+google-search-results==2.4.2
+
+# (OPTIONAL) Add tensorflow-intel if you need TF in this env
+# tensorflow-intel==2.17.0
+
+# Selenium for automated web scraping
+selenium==4.15.2
+webdriver-manager==4.0.1

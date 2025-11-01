@@ -1,0 +1,5 @@
+{
+  "/scopus-wos-integration/page": "app/scopus-wos-integration/page.js",
+  "/page": "app/page.js",
+  "/scholar-metrics/page": "app/scholar-metrics/page.js"
+}
